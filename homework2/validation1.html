@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <meta charset = "utf-8"/>
+    <style>
+      .errorMessage{color: red;}
+      </style>
+<script src="./validation1.js"></script>
+</head>
+
+
+<h1>
+Validation Form
+</h1>
+
+<form id = "your information" action="">
+<filedset>
+<legend>
+  Enter your information:
+</legend>
+
+<p id = "FirstName">
+<label for = "FirstName">First Name</label>
+<input id = "FirstName" name = "FirstName" type="text" />
+
+
+</p>
+<p id = "LastName">
+    <label for = "LastName">Last Name</label>
+    <input id = "LastName" name = "LastName" type="text" />
+    
+    
+    </p>
+<p id = "Gender">
+    <label for="gender">Choose a Gender:</label>
+<select id="gender" name="gender" type = " ">
+    
+  <option value="male">Male</option>
+  <option value="female">Female</option>
+  
+</select>
+</p>
+
+<p id = "State">
+<label for="state">Choose a State:</label>
+<select id="state" name="state">
+    
+  <option value="california">California</option>
+  <option value="florida">Flordia</option>
+  <option value="new york">New York</option>
+  <option value="texas">Texas</option>
+  <option value="hawaii">Hawaii</option>
+  <option value="washington">Washington</option>
+  <option value="colorado">Colorado</option>
+  <option value="virgina">Virgina</option>
+  <option value="iowa">Iowa</option>
+  <option value="arizona">Arizona</option>
+</select>
+</p>
+<input onClick="validate2()" type = "button" id="continue" name="continue" value="Continue"/>
+
+</filedset>
+
+
+</form>
+
+</html>
